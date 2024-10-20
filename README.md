@@ -30,7 +30,7 @@ Our convolutional autoencoder is able to generate images of stellar spectra with
 
 ![Best image predictions of convolutional autoencoder](https://github.com/mmlegate/Physics-Informed-ML/blob/main/auto_cnn_best.webp?raw=true)  ![Worst image predictions of convolutional autoencoder](https://github.com/mmlegate/Physics-Informed-ML/blob/main/auto_cnn_worst.webp?raw=true)
 
-Plot of Spectra and Image Performance, using SSIM Index
+### Plot of Spectra and Image Performance, using SSIM Index
 ![Pairplot of spectra data and performance](https://github.com/mmlegate/Physics-Informed-ML/blob/main/auto_cnn_pairplot.webp?raw=true)
 
 We see that the original spectra data shows a roughly a linear relationship between two values, as values increase, the data points disperse and show greater variation. Lighter colors in the pairplot above indicate better performance, or a better SSIM index. Also notice the dispersion of redshift values, which is most significant to our spectrum of visible light and thus pivotal to image generation. Most notably, low redshift values corresponding to high z, i, r, g, u values is where the neural network performed the worst. 
